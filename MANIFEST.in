@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include pretty_mails *.css
+recursive-include pretty_mails *.csv
+recursive-include pretty_mails *.html
+recursive-include pretty_mails *.ico
+recursive-include pretty_mails *.js
+recursive-include pretty_mails *.json
+recursive-include pretty_mails *.md
+recursive-include pretty_mails *.png
+recursive-include pretty_mails *.py
+recursive-include pretty_mails *.svg
+recursive-include pretty_mails *.txt
+recursive-exclude pretty_mails *.pyc
