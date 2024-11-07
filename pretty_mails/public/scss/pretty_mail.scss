@@ -1,0 +1,29 @@
+.body-table {
+	border-collapse: collapse;
+	table-layout: fixed;
+	margin: 0 auto;
+	border-spacing: 0;
+	height: 100% !important;
+	width: 100% !important;
+	font-weight: normal;
+	font-family: $font-stack;
+	font-size: 14px;
+	line-height: 1.4;
+	.brand-logo {
+		margin: auto;
+		text-align: center;
+		border: 0;
+		outline: none;
+		text-decoration: none;
+		max-height: 40px;
+		width: auto;
+		margin-bottom: 10px;
+	}
+	td {
+		font-family: $font-stack;
+	}
+
+	.body-content {
+		padding: 0px 0;
+	}
+}

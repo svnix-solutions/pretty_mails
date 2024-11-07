@@ -1,5 +1,7 @@
 from . import __version__ as app_version
 
+from pretty_mails.pretty_mails.patches import email_body
+
 app_name = "pretty_mails"
 app_title = "Pretty Mails"
 app_publisher = "SVNIX Solutions"
@@ -11,7 +13,7 @@ app_license = "GPLv3"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/pretty_mails/css/pretty_mails.css"
+app_include_css = "/assets/pretty_mails/css/pretty_mails.css"
 # app_include_js = "/assets/pretty_mails/js/pretty_mails.js"
 
 # include js, css files in header of web template
